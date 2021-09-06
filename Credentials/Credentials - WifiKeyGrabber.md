@@ -1,13 +1,15 @@
-## Credentials - WiFiKeyGrabber
+# Credentials - WiFiKeyGrabber
 
-### Description
+## Description
 
 WiFiKeyGrabber is a simple HIDScript that show in powershell output the saved Wi-Fi Passwords.
 
-### Requirement
+## Requirement
 
 1. First note this script has been created and tested under Windows 11 Build 22000.
 2. I used a QWERTZ keyboard to do this ("ch" layout), so you may need to change that.
+
+## Code
 
 ```bash
 layout("ch")
