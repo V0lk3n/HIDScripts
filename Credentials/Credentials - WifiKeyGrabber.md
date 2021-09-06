@@ -22,4 +22,4 @@ type("Select-String -Path Wi-Fi*.xml -Pattern 'keyMaterial' | Select Filename, L
 press("ENTER")
 type("del Wi-Fi*.xml")
 press("ENTER")
-```bash
+```
