@@ -9,6 +9,10 @@ This script will download MiniDump, extract it, run it to dump LSASS process to 
 1. First note this script has been created and tested under Windows 11 Build 22000.
 2. I used a QWERTZ keyboard to do this ("ch" layout), so you may need to change that.
 
+## DEMO
+
+<img src="https://github.com/V0lk3n/HIDScripts/blob/main/demo/Credentials/demo-lsass_dump.gif"/>
+
 ## Code
 
 ```bash
