@@ -1,11 +1,11 @@
-## Credentials - Mimikatz + Send Result to Mail
+# Credentials - Mimikatz + Send Result to Mail
 
-### Description
+## Description
 
 This is a simple HIDScript that disable windows defender, run Mimikatz (logonPasswords) and save the result to log.
 Then it send to your mail the log as attachment, delete Mimikatz and log files and finally re-enable windows defender.
 
-### Requirement
+## Requirement
 
 1. First note this script has been created and tested under Windows 11 Build 22000 and that i give the full path of "Windows Security" to disable Windows Defender. You may need to change the path according to you.
 
@@ -15,9 +15,7 @@ Then it send to your mail the log as attachment, delete Mimikatz and log files a
 
 4. To deliver the mail, you need first to allow less secure app to access you'r Gmail account. To do this you need first to disable 2FA, then enable less secure app (<a href="https://myaccount.google.com/lesssecureapps">direct link</a>). I suggest to create a Gmail account only for this purpose, instead of using you'r personal account if you are using Gmail. As you need to disable 2FA it expose you'r account.
 
-
-
-### Code
+## Code
 
 ```bash
 layout("ch")
