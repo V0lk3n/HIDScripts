@@ -9,7 +9,7 @@ WiFiKeyGrabber is a simple HIDScript that show in powershell output the saved Wi
 1. First note this script has been created and tested under Windows 11 Build 22000.
 2. I used a QWERTZ keyboard to do this ("ch" layout), so you may need to change that.
 
-## Code Rubber/Pico Ducky
+## Rubber/Pico Ducky Version
 
 ```bash
 DEFAULT_DELAY 1000
@@ -28,7 +28,7 @@ STRING del Wi-Fi*.xml
 ENTER
 ```
 
-## Code P4wnP1 Version
+## P4wnP1 Version
 
 ```bash
 layout("ch")
